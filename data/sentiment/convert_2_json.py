@@ -35,7 +35,6 @@ def convert_text_to_json(**kwargs):
                 new_sentiment['text'] = parsed_sentiment['text'].replace('\n', ' ')
                 new_sentiments += [new_sentiment]
 
-
     with open(kwargs['to_file'],"w") as to_file:
         sentiments = loaded_sentiments + new_sentiments
         print("Writing...")
