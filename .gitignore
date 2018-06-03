@@ -1,0 +1,5 @@
+/__pycache__
+google-key.json
+*.json
+*.txt
+/pyaudio
